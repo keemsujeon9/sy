@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    width: 414px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title h1 span {
+    color: rgb(194, 240, 252);
+}
+
+.title h3 {
+    margin: 20px 0;
+}
+
+.title h4 {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.title h4 span {
+    font-size: 13px;
+    background-color: rgb(251, 255, 196);
+    color: #000;
+}
+
+.cont01 h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.cont01 h3:nth-child(2) {
+    margin-bottom: 100px;
+}
+
+.cont01 .list {
+
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont01 .list .item {
+    text-align: center;
+    width: 200px;
+    height: 230px;
+    margin: 10px 0;
+}
+
+.cont01 .list img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cont01 h3 {
+    margin-top: 50px;
+}
+
+.cont01 h3 span {
+    font-size: 15px;
+}
+
+footer h2 {
+    font-size: 20px;
+    background-color: rgb(11, 0, 165);
+    margin-bottom: 30px;
+}
+
+footer a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: rgb(255, 252, 47);
+    font-weight: bold;
+}

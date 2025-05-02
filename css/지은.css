@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'GmarketSansMedium';
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    height: 50px;
+    border-bottom: 1px dashed #b9b9b9;
+}
+
+header .inner {
+    width: calc(100% - 20px);
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.main_visual .inner {
+    width: calc(100% - 20px);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.main_visual .inner h2 {
+    font-size: 40px;
+}
+
+.main_visual .inner img {
+    width: 300px;
+    object-fit: cover;
+    margin: 40px 0;
+}
+
+.main_visual .inner p {
+    font-size: 15px;
+    color: #b9b9b9;
+}
+
+.main_visual .inner p span {
+    color: #000;
+}

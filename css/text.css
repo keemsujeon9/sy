@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 400px;
+    margin: 50px auto;
+    font-family: 'Pretendard-Regular';
+    color: #fff;
+    background-color: #000;
+}
+
+body>h2,
+body>h1 {
+    text-align: center;
+}
+
+body>h2 {
+    font-size: 35px;
+}
+
+#title {
+    margin: 10px 0;
+    width: 50%;
+    height: 25px;
+    padding: 0 5px;
+}
+
+#content {
+    font-family: 'Pretendard-Regular';
+    margin: 10px 0;
+    padding: 5px;
+    width: 70%;
+    resize: none;
+}
+
+.btn {
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 0px;
+}
+
+.board {
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.post h3 {
+    margin: 0;
+    
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.delete-btn {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 50px;
+    height: 25px;
+}
